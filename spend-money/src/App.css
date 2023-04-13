@@ -1,0 +1,69 @@
+
+body{
+  background-color: #dadcdfa0;
+}
+.navbar-content {
+  background-color: rgb(164, 9, 9);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  }
+
+.element {
+  max-width: 380px;
+  margin: 2rem 3rem;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  }
+  .element img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin-top: 25px;
+  border: 1px solid rgb(202, 194, 194);
+  margin-left: 25px;
+  }
+  .element p {
+  font-size: 1.2rem;
+  
+  }
+ 
+  .titleandprice{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .element span {
+  font-size: 1rem;
+  }
+.InterestandAdd {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: 1px rgb(182, 168, 168) solid;
+  border-radius: 10px;
+  }
+  .btn-Interest {
+  background-color: rgb(252, 252, 252);
+  color: tomato;
+  border: 1px solid tomato;
+  }
+  .btn-Add {
+  background-color: rgb(225, 32, 32);
+  color: white;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 1.5rem;
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    }
